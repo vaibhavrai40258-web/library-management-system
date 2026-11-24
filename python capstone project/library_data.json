@@ -1,0 +1,100 @@
+{
+  "books": [
+    {
+      "book_id": "B101",
+      "title": "Python Crash Course",
+      "author": "Eric Matthes",
+      "category": "Computer Science",
+      "total_copies": 4,
+      "available_copies": 3
+    },
+    {
+      "book_id": "B102",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Computer Science",
+      "total_copies": 2,
+      "available_copies": 2
+    },
+    {
+      "book_id": "B103",
+      "title": "Higher Engineering Mathematics",
+      "author": "B.S. Grewal",
+      "category": "Mathematics",
+      "total_copies": 5,
+      "available_copies": 4
+    },
+    {
+      "book_id": "B104",
+      "title": "Concepts of Physics",
+      "author": "H.C. Verma",
+      "category": "Physics",
+      "total_copies": 3,
+      "available_copies": 3
+    },
+    {
+      "book_id": "B105",
+      "title": "Digital Design",
+      "author": "M. Morris Mano",
+      "category": "Electronics",
+      "total_copies": 3,
+      "available_copies": 2
+    },
+    {
+      "book_id": "B106",
+      "title": "Let Us C",
+      "author": "Yashavant Kanetkar",
+      "category": "Computer Science",
+      "total_copies": 4,
+      "available_copies": 4
+    }
+  ],
+  "members": [
+    {
+      "role": "StudentMember",
+      "member_id": "S101",
+      "name": "Aarav Sharma",
+      "department": "CSE",
+      "borrowed_records": {
+        "B101": "2026-12-05"
+      },
+      "fine_balance": 0
+    },
+    {
+      "role": "StudentMember",
+      "member_id": "S102",
+      "name": "Priya Nair",
+      "department": "ECE",
+      "borrowed_records": {
+        "B105": "2026-12-02"
+      },
+      "fine_balance": 15
+    },
+    {
+      "role": "StudentMember",
+      "member_id": "S103",
+      "name": "Rohan Gupta",
+      "department": "CSE",
+      "borrowed_records": {},
+      "fine_balance": 0
+    },
+    {
+      "role": "FacultyMember",
+      "member_id": "F201",
+      "name": "Dr. Rajesh Verma",
+      "department": "CSE",
+      "borrowed_records": {
+        "B103": "2026-12-20"
+      },
+      "fine_balance": 0
+    },
+    {
+      "role": "FacultyMember",
+      "member_id": "F202",
+      "name": "Prof. Meera Iyer",
+      "department": "Mathematics",
+      "borrowed_records": {},
+      "fine_balance": 0
+    }
+  ]
+}
